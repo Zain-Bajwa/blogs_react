@@ -1,10 +1,9 @@
 import { Fragment } from "react";
-import SignIn from './components/authentication/signIn';
+import SignIn from './components/user/signIn';
 
 function App() {
   return (
     <Fragment>
-      {/* <h1>Hello</h1> */}
      <SignIn></SignIn>
     </Fragment>
   );
